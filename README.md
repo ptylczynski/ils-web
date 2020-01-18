@@ -7,7 +7,7 @@ Inclined Line Simulator Web is a web adaptation of existing implementation.
     
 # Available sites
     - `` - which is entry point, as well as data input
-    - `/show` - used to present results
+    - `show` - used to present results
     
 # Usage
     One must run Django projects. Then hit index site of newly created server.
@@ -16,5 +16,5 @@ Inclined Line Simulator Web is a web adaptation of existing implementation.
     version, animated gif with entire simulation will apear as first
     
 # Known bugs
-    - Refreshing `/show` site when simulation is in place, cause show of partial
+    - Refreshing `show` site when simulation is in place, cause show of partial
     previous results, e.g. gif animation 

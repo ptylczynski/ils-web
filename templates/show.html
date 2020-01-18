@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>Simulator</title>
+    <style>
+        .present{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <h1>Move animation</h1>
+        <video>
+            <source src="{% static "plot.mp4" %}" type="video/mp4">
+        </video>
+    </p>
+    <p>
+        <h1>Move parameters</h1>
+        <div class = "present">
+            <img src="{% static "acceleration_graph.png" %}" alt="Chart is being rendered">
+        </div>
+        <div class = "present">
+            <img src="{% static "angle_graph.png" %}" alt="Chart is being rendered">
+        </div>
+        <div class = "present">
+            <img src="{% static "distance_in_one_step.png" %}" alt="Chart is being rendered">
+        </div>
+        <div class = "present">
+            <img src="{% static "friction_graph.png" %}" alt="Chart is being rendered">
+        </div>
+        <div class = "present">
+            <img src="{% static "gravity_graph.png" %}" alt="Chart is being rendered">
+        </div>
+        <div class = "present">
+            <img src="{% static "speed_diff_graph.png" %}" alt="Chart is being rendered">
+        </div>
+        <div class = "present">
+            <img src="{% static "total_speed_graph.png" %}">
+        </div>
+    </p>
+</body>

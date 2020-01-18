@@ -2,8 +2,8 @@
 Inclined Line Simulator Web is a web adaptation of existing implementation.
 
 # Changes to standard implementation
-    - added async wrapper for async processing
-    - wrapped in Django framework
+- added async wrapper for async processing
+- wrapped in Django framework
     
 # Available sites
     - `` - which is entry point, as well as data input
